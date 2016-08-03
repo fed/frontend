@@ -1,9 +1,26 @@
-# JavaScript Fundamentals
+# Front End Development Fundamentals
 
-![JavaScript](http://i.imgur.com/njd9Yb9.jpg)
+![Front End Development Fundamentals](http://i.imgur.com/IuqwjUJ.png)
 
-1. [DOM Manipulation](docs/dom-manipulation.md)
-2. [Collections](docs/collections.md)
-3. [Object-Oriented Programming](docs/oop.md)
-4. [Closures](docs/closures.md)
-5. [ES6](docs/es6.md)
+## JavaScript
+
+- [DOM Manipulation](javascript/dom.md)
+- [Collections](javascript/collections.md)
+- [Object-Oriented Programming](javascript/oop.md)
+- [Closures](javascript/closures.md)
+- [Context (`this`)](javascript/context.md)
+- [ES6](javascript/es6.md)
+- [Patterns](javascript/patterns.md)
+
+## HTML
+
+- [HTML5](html/html5.md)
+- [Accessibility](html/accessibility.md)
+- [SEO](html/seo.md)
+
+## CSS
+
+- [CSS Fundamentals](css/basics.md)
+- [Responsive Web Design](css/responsive.md)
+- [Methodologies](css/methodologies.md)
+- [Tools and Workflows](css/tools.md)
