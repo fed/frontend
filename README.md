@@ -1,6 +1,6 @@
 # Front End Development Fundamentals
 
-![Front End Development Fundamentals](http://i.imgur.com/IuqwjUJ.png)
+![Front End Development Fundamentals](http://i.imgur.com/KeAe8wf.jpg)
 
 ## JavaScript
 
@@ -24,3 +24,7 @@
 - [Responsive Web Design](css/responsive.md)
 - [Methodologies](css/methodologies.md)
 - [Tools and Workflows](css/tools.md)
+
+## Misc
+
+- [Git](misc/git.md)
