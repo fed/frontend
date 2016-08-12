@@ -144,3 +144,7 @@ Given a version number `MAJOR.MINOR.PATCH`, increment the:
 Additional labels for pre-release and build metadata [are available](https://docs.npmjs.com/cli/version) as extensions to the `MAJOR.MINOR.PATCH` format.
 
 See the [Semantic Versioning](http://semver.org/) specification for more information.
+
+## Flow chart: So you have a mess on your hands...
+
+[![Git Pretty](./git.png)](http://justinhileman.info/article/git-pretty/)
