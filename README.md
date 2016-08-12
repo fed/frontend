@@ -28,3 +28,4 @@
 ## Misc
 
 - [Git](misc/git.md)
+- [Unix and Bash](misc/unix.md)
