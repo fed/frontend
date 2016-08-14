@@ -8,9 +8,10 @@
 - [Collections](javascript/collections.md)
 - [Object-Oriented Programming](javascript/oop.md)
 - [Closures](javascript/closures.md)
-- [Context (`this`)](javascript/context.md)
+- [Context (aka: the use of `this`)](javascript/context.md)
 - [ES6](javascript/es6.md)
 - [Patterns](javascript/patterns.md)
+- [Functional Programming](javascript/functional.md)
 
 ## HTML
 

@@ -1,20 +1,24 @@
-# Organizing CSS: OOCSS, SMACSS and BEM
+# Organising CSS
 
 [← Take me back to the homepage](/README.md)
 
-## What's OOCSS?
+```
+**Heads up!** This is a work in progress.
+```
 
-Object oriented CSS is a methodology of writing reusable CSS that is fast, scalable and maintainable. It's done by adhering to two main principles: separating structure from skin and container from content.
+## OOCSS
+
+Object oriented CSS is a methodology for writing reusable, scalable and maintainable CSS code. It's done by adhering to two main principles: separating *structure from skin* and *container from content*.
 
 More info and examples of OOCSS [here](http://www.smashingmagazine.com/2011/12/12/an-introduction-to-object-oriented-css-oocss/) and also [here](http://appendto.com/2014/04/oocss/).
 
 ### What's a CSS Object?
 
-Basically, a CSS "object" is a repeating visual pattern, that can be abstracted into an independent snippet of HTML, CSS, and possibly JavaScript. That object can then be reused throughout a site. In layman's terms, objects in front-end development are simply HTML elements. The CSS is where we make those objects, or elements, modular and location independent to be able to place them anywhere on a page and behave predictably.
+A CSS object is a repeating visual pattern that can be abstracted into an independent snippet of HTML, CSS, and possibly JavaScript. That object can then be reused throughout a site. In layman's terms, objects in front-end development are simply HTML elements. The CSS is where we make those objects, or elements, modular and location independent to be able to place them anywhere on a page and behave predictably.
 
 ### How do you separate the structure from the skin?
 
-This means separating positioning (position, float, margin, etc.) from styling (background, color, border, etc.). In practice, this essentially means to not mix structure/positioning properties with skin/styling properties on the same class. This way our "skinning" properties can be reused on a variety of elements, preventing property duplication in our CSS.
+This means separating positioning (`position`, `float`, `margin`, etc.) from styling (`background`, `color`, `border`, etc.). In practice, this essentially means not to mix structure / positioning properties with skin / styling properties on the same class definition.
 
 For instance, instead of this:
 
@@ -72,7 +76,7 @@ we could have this:
 }
 ```
 
-Now all the elements are using classes, the common styles are combined into a reusable "skin" and nothing is unnecessarily repeated. We just need to apply the "skin" class to all the elements and the result will be the same as what the first example would produce, except with less code and a possiblity for further reuse.
+Now all the elements are using classes, the common styles are combined into a reusable *skin* and nothing is unnecessarily repeated. We just need to apply this skin class to all the elements and the result will be the same as what the first example would produce, except with less code and a possiblity for further reuse.
 
 ### How do you separate the container from the content?
 
@@ -123,3 +127,9 @@ This CSS would never fall into any BEM category, it’s merely a standalone rule
 ## Can we use them all together?
 
 Since OOCSS is an abstract coding methodology, BEM is a concrete application of OOCSS, and SMACSS is an OOCSS-focused organizational structure, they actually play together very nicely, especially when you throw Sass into the mix. Read [this article](https://mattstauffer.co/blog/organizing-css-oocss-smacss-and-bem) for more info on this.
+
+## CSS Modules
+
+```
+@TODO
+```
