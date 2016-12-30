@@ -53,3 +53,33 @@ var showHoursPerDay = showQuantity.bind(hoursPerDay);
 showDaysPerWeek(); // 7
 showHoursPerDay(); // 24
 ```
+
+## More on `bind`
+
+Right here, I have this function `bark`, which we'll count as [indecipherable 00:09] dog bark noise. **Bark looks like a free flowing function, but there are actually no free flowing functions in JavaScript. They're all attached to objects.** In this case, the bark function's currently attached to the global `window` object. Unless that global object has a `barkNoise` property, that's going to be `undefined`. What we want to do is be able the call the `bark` function in the context of `dog` so it actually does say the bark noise.
+
+If I run this without changing the context, you'll see we get `undefined`. But we actually have this `.bind` method on functions that we can use to pass in a different context. `bind` returns a function that we can invoke. Now, if I run it, we get the `bark, bark, bark` string back.
+
+```
+var bark = function () {
+  console.log(this.barkNoise);
+};
+
+var dog = { barkNoise: 'bark bark bark' };
+
+bark.bind(dog);
+```
+
+## Recreating `Function.prototype.bind`
+
+```
+Function.prototype.bind = function (context) {
+  var fn = this;
+  var outterArgs = [].slice.call(arguments, 1);
+  
+  return function () {
+    var innerArgs = [].slice.call(arguments, 0);
+    fn.apply(context, [].concat(outterArgs, innerArgs));
+  };
+};
+```
