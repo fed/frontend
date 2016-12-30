@@ -255,3 +255,21 @@ var sayAge = function () {
 
 sayAge();
 ```
+
+## Arrow functions w/autobinding
+
+Arrow functions are automatically bound to their lexical scope (i.e.: `this` gets passed in from the parent into the arrow function).
+
+```
+function () {
+	this.greeting = 'G'day mate';
+	
+	setTimeout(function () {
+		console.log(this.greeting);
+	}.bind(this)); // If we don't bind it here, it will echo out undefined
+	
+	setTimeout(() => {
+		console.log(this.greeting);
+	});
+}
+```
