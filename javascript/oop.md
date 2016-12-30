@@ -28,6 +28,10 @@ console.log(rabbit.eatsMeat); // logs "false"
 console.log(bear.eatsMeat);   // logs "true"
 ```
 
+The graphic below contrasts various ways in JavaScript to create objects and the differences in the prototype chains that result from each.
+
+![Prototype chain](https://platform-user-uploads.s3.amazonaws.com/blog/image/121474/toptal-blog-image-1480346836122-f4ff7c7e4c3662c7ad17abce24d01eb9.jpg)
+
 ## Class definitions using function constructors
 
 ```javascript
