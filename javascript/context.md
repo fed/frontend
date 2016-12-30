@@ -83,3 +83,77 @@ Function.prototype.bind = function (context) {
   };
 };
 ```
+
+## Different type of bindings in JavaScript
+
+* **Implicit Binding:**  which is you look to the left of the dot, at call time.
+* **Explicit Binding:** which is telling a function what the context of the this keyword is going to be using `call`, `apply`, or `bind`.
+* **`new` operator Binding:** which is whenever you have a function invoked with the `new` keyword, the `this` keyword is bound to the new object being constructed.
+* **`window` object Binding:** if none of these rules apply, then the `this` keyword is going to default to the Window object unless you're in strict mode. Then it's just going to be undefined.
+
+### More on `new` Binding
+
+We have capitalized the first letter to express that this is going to be a constructor function, and that should be called with the new keyword. Let's go ahead and have this function take in a color, a name, and a type. Then what we usually do is just go ahead and add those to this.
+
+```js
+var Animal = function (color, name, type) {
+  // this = {} --> `this` equals to a brand new object being created by the `new` operator
+  this.color = color;
+  this.name = name;
+  this.type = type;
+};
+
+var puppy = new Animal('brown', 'chubbs', 'dog');
+```
+What happens when this function is invoked? Let's make a new zebra. Because we're invoking it with the new keyword, what's going to happen is, behind the scenes here, JavaScript is going to create a brand new object for us and save it as this. It's a little bit more fancy than just a regular object, which we'll talk about in another video.
+
+For now, you can leave out. This in here is just an object. The new binding rule states that when a function is invoked with the new keyword that this keyword inside that function is bound to the new object being constructed, or this object right here.
+
+### More on `window` binding
+
+
+```js
+var sayAge = function () {
+  console.log(this.age);
+};
+
+var me = {
+  age: 26
+};
+```
+
+What if we just tried to invoke say age and we don't specify what the this keyword is? We're not using `call`. There's also nothing to the left of the dot, so let's see what happens here.
+
+You'll notice we get `undefined`, because what's happening is if you invoke a function that uses the this keyword but doesn't have anything to the left of the dot, it's not using the new binding, and you're not using call, apply, or bind, then the this keyword is going to default to the Window object.
+
+```js
+// ------------
+// 1: We get `undefined`
+// ------------
+sayAge();
+```
+
+If we add a property of age to the Window object we no longer get `undefined` here:
+
+```js
+// ------------
+// 2: We get `25`
+// ------------
+window.age = 25;
+
+sayAge(); // we now get `25`
+```
+
+What's interesting, though, is if I run this function in strict mode, what happens is I get an error because strict mode is smart enough to know that, "Hey, you don't want to do what you're doing. You don't want the this key word to be bound to the Window object or to reference the Window object, so I'm not even going to let you do that.". Basically, what strict mode does is it allows us to opt into a more strict version of JavaScript. 
+
+```js
+// ------------
+// 3: We get an exception thrown
+// ------------
+var sayAge = function () {
+  'use strict';
+  console.log(this.age);
+};
+
+sayAge();
+```
