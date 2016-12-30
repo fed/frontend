@@ -75,9 +75,34 @@ What if we came in here and had a new object on this other object that also had 
 
 What do we expect this invocation to give us? If we look, here's the invocation. We look what's to the left of the dot. Here's the dot and it's mother, and does mother have a name property? It does, which is Stacey, so we should expect to see Stacey. There we go.
 
-## Using `call` and `apply`
+## Explicit Binding
 
 This is about explicitly setting the value of `this` to a function upon execution.
+
+What if we were to take SayName out of this function? Instead of being a method on the object, now, it's just a function currently on the global scope. Now, what we want to do is we want to somehow call this function in the context of Stacy. What we can do is if we type the function name, every function has a .call property that allows us to do just that.
+
+The very first argument that it takes in is the context that you want to call this function is. Now, what happens is SayName is going to be invoked, and this keyword inside of SayName is going to reference Stacy. If we log this, we should see, "My name is Stacey".
+
+```js
+var sayName = function () {
+  console.log('My name is ' + this.name);
+};
+
+var stacey = {
+  name: 'Stacey',
+  age: 34
+};
+
+sayName.call(stacey);
+```
+
+## Using `call` and `apply`
+
+* Call and Apply are the same about the way in which they explicitly set the value of `this` for a function call.
+* Call and Apply differ only in the way in which we pass extra arguments to the function invocation: Call -> Comma separated values, Apply -> Array of values. First argument for both cases is always the object we want to bind the function to.
+* .bind is almost the exact same thing as .call, except there's one thing that's different: it defers the function invocation! .bind is going to return us a new function instead of invoking the original function. It's just going to bind this to Stacey, passing these arguments, and then, return us a brand-new function which we can call later at some point.
+
+To recap, .call, apply and bind allow us to specifically state what this keyword will be within any given function. .call and .apply behave the same way, they will immediately invoke that function, but with .call, you pass in arguments one-by-one, and with .apply, you pass them in as an array, .bind is the exact same thing as .call, but except for immediately invoking the function, it's going to return you a brand-new function that you can invoke later.
 
 When using the `call` or `apply` methods of `Function.prototype`, the value of `this` inside the called function gets explicitly set to the first argument of the corresponding function called.
 
