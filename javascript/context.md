@@ -2,9 +2,82 @@
 
 [⟵ Take me back to the homepage](/README.md)
 
-This is about explicitly setting the value of `this` to a function upon execution.
+The `this` keyword is probably one of the most misunderstood aspects of JavaScript.
+
+## About the `this` keyword
+
+The very first thing to understand when we're talking about this-keyword is really understand what's the purpose of the this-keyword is, or why we even have this-keyword in JavaScript.
+
+What the this-keyword allows us to do, is it allows us to reuse functions with different contexts, or in other words it allows us to decide which objects should be focal when invoking a function or a methods. Imagine we had one function, and we had a bunch of objects that had similar properties, we want that function to work throughout all of our objects.
+
+The first thing you need to ask yourself whenever you're trying to figure out what the this-keyword is, is this question. Where is this function invoked?
+
+Because whenever you're trying to figure out what the this-keyword is, you have to look at when the function was invoked. Not when it was defined, but specifically when it was invoked.
+
+Let's say we had a function here called "say-name," that took in a name and then it's going to council that log, "hello," and whatever that name was.
+
+```js
+function sayHi(name) {
+  console.log('Hello, ' + name);
+}
+```
+
+If I were to ask you right now what this last function is doing, and specifically what is it console.logging his name, you wouldn't know, because you're not going to understand what name is until the function is invoked. It's the exact same idea with the this-keyword. We won't know what the this-keyword is in a function until that function is invoked.
+
+## Context Bindings
+
+* Implicit Binding
+* Explicit Binding
+* `new` Binding
+* `window` Binding
+
+## Implicit Binding
+
+Implicit binding says that when you call a function and when the function is invoked, look to the left of the dot, and that is what the this-keyword is going to reference.
+
+```js
+var me = {
+  name: 'Fed',
+  age: '26',
+  sayName: function () {
+    console.log(this.name);
+  }
+};
+
+me.sayName() // we get Fed
+```
+
+
+```js
+var Person = function (name, age) {
+  return {
+    name: name,
+    age: age,
+    sayName: function () {
+      console.log(this.name);
+    },
+    mother: {
+      name: 'Stacey',
+      sayName: function () {
+        console.log(this.name);
+      }
+    }
+  }
+}
+
+var jim = new Person('Jim', 26);
+
+jim.sayName();
+jim.mother.sayName();
+```
+
+What if we came in here and had a new object on this other object that also had a name property, and that also had a say-name property?
+
+What do we expect this invocation to give us? If we look, here's the invocation. We look what's to the left of the dot. Here's the dot and it's mother, and does mother have a name property? It does, which is Stacey, so we should expect to see Stacey. There we go.
 
 ## Using `call` and `apply`
+
+This is about explicitly setting the value of `this` to a function upon execution.
 
 When using the `call` or `apply` methods of `Function.prototype`, the value of `this` inside the called function gets explicitly set to the first argument of the corresponding function called.
 
