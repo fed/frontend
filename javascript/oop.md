@@ -2,6 +2,32 @@
 
 [⟵ Take me back to the homepage](/README.md)
 
+## Prototypal Inheritance and the prototype chain in JavaScript
+
+Although JavaScript is an object-oriented language, it is prototype-based and does not implement a traditional class-based inheritance system.
+
+In JavaScript, each object internally references another object, called its prototype. That prototype object, in turn, has a reference to its prototype object, and so on. At the end of this prototype chain is an object with null as its prototype. The prototype chain is the mechanism by which inheritance – prototypal inheritance to be precise – is achieved in JavaScript. In particular, when a reference is made to a property that an object does not itself contain, the prototype chain is traversed until the referenced property is found (or until the end of the chain is reached, in which case the property is undefined).
+
+Here’s a simple example:
+
+```js
+function Animal() { this.eatsVeggies = true; this.eatsMeat = false; }
+
+function Herbivore() {}
+Herbivore.prototype = new Animal();
+
+function Carnivore() {
+  this.eatsMeat = true;
+}
+Carnivore.prototype = new Animal();
+
+var rabbit = new Herbivore();
+var bear = new Carnivore();
+
+console.log(rabbit.eatsMeat); // logs "false"
+console.log(bear.eatsMeat);   // logs "true"
+```
+
 ## Class definitions using function constructors
 
 ```javascript
