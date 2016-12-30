@@ -3,7 +3,9 @@
 [← Take me back to the homepage](/README.md)
 
 ```
-@TODO: Update article based on https://bethallchurch.github.io/JavaScript-and-Functional-Programming/
+@TODO Update article based on:
+- https://bethallchurch.github.io/JavaScript-and-Functional-Programming/
+- https://github.com/hemanth/functional-programming-jargon
 ```
 
 ## Minimise Side Effects
