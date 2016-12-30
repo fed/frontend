@@ -1,6 +1,32 @@
-# Closures
+# Making sense out of Scope and Closures in JavaScript
 
 [⟵ Take me back to the homepage](/README.md)
+
+## Scope
+
+* global (`window`) scope
+* function scope
+* block scope (as of ES6)
+
+```
+// Global scope
+var country = 'Ireland';
+window.anotherCountry = 'Scotland';
+
+// Function scope with var
+(function () {
+	var country = 'Australia';
+  anotherCountry = 'England'; // this will override the global scope
+})();
+
+// Block scope with let/const
+{
+	const country = 'New Zealand';
+}
+
+console.log(country); // still Ireland
+console.log(anotherCountry); // changed from Scotland to England
+```
 
 ## Immediately-Invoked Function Expressions
 
