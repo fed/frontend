@@ -43,6 +43,8 @@ A closure is a special kind of object that combines two things: a function, and 
 
 Closures are functions that refer to independent (free) variables. In other words, the function defined in the closure 'remembers' the environment in which it was created.
 
+An important feature of closures is that an inner function still has access to the outer function’s variables even after the outer function has returned. This is because, when functions in JavaScript execute, they use the scope that was in effect when they were created.
+
 ```javascript
 function Person () {
   var name = 'Unknown';
