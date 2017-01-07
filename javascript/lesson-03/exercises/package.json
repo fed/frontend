@@ -1,0 +1,10 @@
+{
+  "name": "js-course-lesson-03-exercises",
+  "version": "1.0.0",
+  "main": "js/exercises.js",
+  "author": "Nicolas Ronsmans",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.1.3"
+  }
+}
