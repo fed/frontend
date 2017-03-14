@@ -231,6 +231,8 @@ The `:nth-child` selector means select an element provided it's a paragraph AND 
 
 These are pseudo elements which allows you to insert content onto a page from CSS (without it needing to be in the HTML). Note that **the end result is not actually in the DOM**. Check [this blog entry](http://krasimirtsonev.com/blog/article/CSS-before-and-after-pseudo-elements-in-practice) to see some ideas on how to use these pseudo elements.
 
+Note that self-closing elements such as <img />, <input /> and <hr /> can't have pseudo-elements attached to them.
+
 ### `:` vs `::`
 
 Every browser that supports the double colon (`::`) CSS3 syntax also supports just the (`:`) syntax, but IE 8 only supports the single-colon, so for now, it's recommended to just use the single-colon for best browser support. `::` is the newer format indented to distinguish pseudo content from pseudo selectors. Pseudo elements (or pseudo content) create new virtual elements, whereas pseudo classes just act as ordinary selectors.
