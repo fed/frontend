@@ -2,12 +2,14 @@
 
 ![Front End Interview Guide](https://static1.squarespace.com/static/573300a5b09f95fd6467a047/t/58f7874337c58165bebf2124/1503302556132/dev+op_breed.jpg)
 
+This is a list of curated resources on Front End developement I think are worth having a look at.
+
 ## Computer Science Fundamentals
 
 * Computer Science Distilled: Learn the Art of Solving Computational Problems — [Book](https://www.amazon.com/Computer-Science-Distilled-Computational-Problems-ebook/dp/B0731JG96F/)
 * Cracking the Coding Interview — [Book](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
 * Introduction to Algorithms — [Book](https://www.amazon.com/Introduction-Algorithms-Thomas-H-Cormen-ebook/dp/B007CNRCAO/)
-* Computer Science in JavaScript — [Blog](https://www.nczonline.net/blog/tag/computer-science/)
+* Computer Science in JavaScript — [Website](https://www.nczonline.net/blog/tag/computer-science/)
 
 ## Computer Science Exercises
 
@@ -29,3 +31,25 @@
 ## JavaScript Practice
 
 * 30 Day Vanilla JS Coding Challenge — [Website](https://javascript30.com/)
+
+## Node.js
+
+* Learn and Understand Node.js — [Video Course](https://www.udemy.com/understand-nodejs)
+
+## Testing
+
+* JavaScript Testing — [Video Course](https://www.udacity.com/course/javascript-testing--ud549)
+
+## Functional Programming
+
+-
+
+## HTML5
+
+-
+
+## Accessibility
+
+* Practical Approaches For Designing Accessible Websites — [Book](https://www.amazon.com/Practical-Approaches-Designing-Accessible-Websites-ebook/dp/B014JEXKIQ/)
+* Web Accessibility by Google — [Video Course](https://www.udacity.com/course/web-accessibility--ud891)
+* Start Building Accessible Web Applications Today — [Video Course](https://egghead.io/courses/start-building-accessible-web-applications-today)
