@@ -1,6 +1,6 @@
 # Front End Development Resources
 
-![Front End Interview Guide](https://i.imgur.com/JNtaXdN.jpg)
+![Front End Development Resources](./banner.jpg)
 
 This is a list of curated resources on Front End developement I think are worth having a look at.
 
