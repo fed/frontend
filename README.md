@@ -14,7 +14,7 @@ This is a list of curated resources on Front End developement I think are worth 
 ## Computer Science Exercises
 
 * Codility — [Lessons](https://codility.com/programmers/lessons/) — [Challenges](https://codility.com/programmers/challenges/)
-* HackerRank - [Algorithms](https://www.hackerrank.com/domains/algorithms/) — [Data Structures](https://www.hackerrank.com/domains/data-structures/) — [Cracking the Coding Interview](https://www.hackerrank.com/domains/tutorials/cracking-the-coding-interview)
+* HackerRank — [Algorithms](https://www.hackerrank.com/domains/algorithms/) — [Data Structures](https://www.hackerrank.com/domains/data-structures/) — [Cracking the Coding Interview](https://www.hackerrank.com/domains/tutorials/cracking-the-coding-interview)
 
 ## JavaScript Fundamentals
 
@@ -31,7 +31,7 @@ This is a list of curated resources on Front End developement I think are worth 
 ## JavaScript Practice
 
 * 30 Day Vanilla JS Coding Challenge — [Website](https://javascript30.com/)
-* JavaScript Interview Questions (written by a Frontend Engineer) — [Questions](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)) — [Answers](https://github.com/bcherny/frontend-interview-questions)
+* The Best Frontend JavaScript Interview Questions (written by a Frontend Engineer) — [Questions](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)) — [Answers](https://github.com/bcherny/frontend-interview-questions)
 
 ## Node.js
 
@@ -42,7 +42,7 @@ This is a list of curated resources on Front End developement I think are worth 
 * Functional Programming in JavaScript — [Book](https://www.manning.com/books/functional-programming-in-javascript)
 * Functional Programming in JavaScript — [Book](https://www.amazon.com/Functional-Programming-JavaScript-Dan-Mantyla/dp/1784398225)
 * Functional JavaScript — [Book](http://shop.oreilly.com/product/0636920028857.do)
-* Professor Frisby Introduces Composable Functional JavaScript - [Video Course](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript)
+* Professor Frisby Introduces Composable Functional JavaScript — [Video Course](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript)
 
 ## Testing
 
