@@ -39,9 +39,9 @@ This is a list of curated resources on Front End developement I think are worth 
 ## Functional Programming
 
 * Functional Programming in JavaScript — [Book](https://www.manning.com/books/functional-programming-in-javascript)
-* Professor Frisby Introduces Composable Functional JavaScript - [Video Course](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript)
 * Functional Programming in JavaScript — [Book](https://www.amazon.com/Functional-Programming-JavaScript-Dan-Mantyla/dp/1784398225)
 * Functional JavaScript — [Book](http://shop.oreilly.com/product/0636920028857.do)
+* Professor Frisby Introduces Composable Functional JavaScript - [Video Course](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript)
 
 ## Testing
 
