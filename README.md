@@ -7,8 +7,8 @@ This is a list of curated resources on Front End developement I think are worth 
 ## Computer Science Fundamentals
 
 * Computer Science Distilled: Learn the Art of Solving Computational Problems — [Book](https://www.amazon.com/Computer-Science-Distilled-Computational-Problems-ebook/dp/B0731JG96F/)
+* Four Semesters of Computer Science — [Video Course](https://frontendmasters.com/courses/computer-science/) — [Course Notes](https://btholt.github.io/four-semesters-of-cs/)
 * Cracking the Coding Interview — [Book](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
-* Introduction to Algorithms — [Book](https://www.amazon.com/Introduction-Algorithms-Thomas-H-Cormen-ebook/dp/B007CNRCAO/)
 * Computer Science in JavaScript — [Website](https://www.nczonline.net/blog/tag/computer-science/)
 
 ## Computer Science Exercises
@@ -36,17 +36,20 @@ This is a list of curated resources on Front End developement I think are worth 
 
 * Learn and Understand Node.js — [Video Course](https://www.udemy.com/understand-nodejs)
 
+## Functional Programming
+
+* Functional Programming in JavaScript — [Book](https://www.manning.com/books/functional-programming-in-javascript)
+* Professor Frisby Introduces Composable Functional JavaScript - [Video Course](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript)
+* Functional Programming in JavaScript — [Book](https://www.amazon.com/Functional-Programming-JavaScript-Dan-Mantyla/dp/1784398225)
+* Functional JavaScript — [Book](http://shop.oreilly.com/product/0636920028857.do)
+
 ## Testing
 
 * JavaScript Testing — [Video Course](https://www.udacity.com/course/javascript-testing--ud549)
 
-## Functional Programming
-
--
-
 ## HTML5
 
--
+* Decoding HTML5 — [Book](https://code.tutsplus.com/ebooks/decoding-html5)
 
 ## Accessibility
 
