@@ -1,6 +1,6 @@
 # Front End Development Resources
 
-![Front End Interview Guide](https://static1.squarespace.com/static/573300a5b09f95fd6467a047/t/58f7874337c58165bebf2124/1503302556132/dev+op_breed.jpg)
+![Front End Interview Guide](https://i.imgur.com/JNtaXdN.jpg)
 
 This is a list of curated resources on Front End developement I think are worth having a look at.
 
@@ -31,6 +31,7 @@ This is a list of curated resources on Front End developement I think are worth 
 ## JavaScript Practice
 
 * 30 Day Vanilla JS Coding Challenge — [Website](https://javascript30.com/)
+* JavaScript Interview Questions (written by a Frontend Engineer) — [Questions](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)) — [Answers](https://github.com/bcherny/frontend-interview-questions)
 
 ## Node.js
 
