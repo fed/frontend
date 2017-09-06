@@ -1,6 +1,0 @@
-default:
-  - eslint
-  - watch
-
-test:
-  - mocha
