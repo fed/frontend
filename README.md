@@ -11,10 +11,10 @@ This is a list of curated resources on Front End developement I think are worth 
 * Cracking the Coding Interview — [Book](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
 * Computer Science in JavaScript — [Website](https://www.nczonline.net/blog/tag/computer-science/)
 
-## Computer Science Exercises
+## Computer Science Practice
 
-* Codility — [Lessons](https://codility.com/programmers/lessons/) — [Challenges](https://codility.com/programmers/challenges/)
-* HackerRank — [Algorithms](https://www.hackerrank.com/domains/algorithms/) — [Data Structures](https://www.hackerrank.com/domains/data-structures/) — [Cracking the Coding Interview](https://www.hackerrank.com/domains/tutorials/cracking-the-coding-interview)
+* Codility — [Website](https://codility.com/programmers)
+* HackerRank — [Website](https://www.hackerrank.com/dashboard)
 
 ## JavaScript Fundamentals
 
