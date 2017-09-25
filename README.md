@@ -16,6 +16,7 @@ This is a list of curated resources on Front End developement I think are worth 
 
 * Codility — [Website](https://codility.com/programmers)
 * HackerRank — [Website](https://www.hackerrank.com/dashboard)
+* The Best Frontend JavaScript Interview Questions (written by a Frontend Engineer) — [Questions](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)) — [Answers](https://github.com/bcherny/frontend-interview-questions)
 
 ## JavaScript Fundamentals
 
@@ -32,7 +33,6 @@ This is a list of curated resources on Front End developement I think are worth 
 ## JavaScript Practice
 
 * 30 Day Vanilla JS Coding Challenge — [Website](https://javascript30.com/)
-* The Best Frontend JavaScript Interview Questions (written by a Frontend Engineer) — [Questions](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)) — [Answers](https://github.com/bcherny/frontend-interview-questions)
 
 ## Node.js
 
