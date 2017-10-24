@@ -30,7 +30,7 @@ This is a list of curated resources on Front End developement I think are worth 
 * Douglas Crockford on Advanced JavaScript — [Video Course](https://yuiblog.com/blog/2006/11/27/video-crockford-advjs/)
 * Learning JavaScript Design Patterns — [Book](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 
-## JavaScript Practice
+## JavaScript, DOM and HTML5 APIs Practice
 
 * 30 Day Vanilla JS Coding Challenge — [Website](https://javascript30.com/)
 

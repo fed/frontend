@@ -361,3 +361,11 @@ The different weight of selectors is usually the reason why your CSS rules don't
 You can calculate CSS specificity using the [CSS Specificity Calculator](http://specificity.keegan.st/).
 
 For more info and examples check the [CSS Specificity Wars](http://www.stuffandnonsense.co.uk/archives/css_specificity_wars.html).
+
+## Misc
+
+### Styling Placeholders
+
+`:placeholder-shown` is used to select the input field itself when its placeholder is being shown. `::placeholder`, on the other hand, styles the placeholder text.
+
+[Imgur](https://i.imgur.com/yLR14ZA.png)
