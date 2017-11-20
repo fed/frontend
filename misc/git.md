@@ -2,6 +2,12 @@
 
 [⟵ Take me back to the homepage](/README.md)
 
+---
+
+**Git Flight Rules: https://github.com/k88hudson/git-flight-rules**
+
+---
+
 There are many usable Git workflows. Indeed, Git is really a tool for designing VCS workflows.
 
 Just a heads up: this is by no means a normative document or an attempt to define the one true workflow. I've found this workflow to be productive and relatively painless, especially for teams that are still learning and transitioning towards a more Agile process.
@@ -457,3 +463,72 @@ git push personal jira-123
 ```
 
 Be careful when issuing a git pull command. In cases where your feature branch is based off an older commit in the parent branch, this can cause the creation of a merge commit. A merge commit occurs when when two previous commits are merged together to form a new commit. This new commit has two parent commits instead of one. This makes pulling changes out of a branch (when necessary) difficult. Following the instructions above, especially rebase, should avoid these issues.
+
+# Simple Workflow
+
+`git help config` pass in any git command for help
+`git init` initialises an empty Git repository, that is, creates a hidden `.git` folder
+`git status` to see what has changed since the last commit
+`git add --all`
+`git commit -m "Message"`
+`git commit -a -m "Message` = add all + commit
+`git log` timeline history
+`git diff` shows unstained differences since last commit
+`git diff --staged` shows which lines have changed in staged files
+`git commit --amend -m "Change commit message"` whatever has been staged is added to the last commit.
+`git commit --amend --no-edit` change commit content w/o changing its message
+`git remote show origin`
+
+## Branches
+
+`git branch` list all local branches
+`git branch -r` list all remote branches`
+`git branch feature/blah`
+`git checkout feature/blah`
+`git checkout -b feature/blah` creates the branch + checks it out
+`git merge feature/blah` from the target branch
+
+## Unstage file
+
+`git reset HEAD README.md` upstages the README file, HEADS refers to the last commit.
+
+## Discard changes on last commit
+
+`git checkout -- README.md` blows away all changes since last commit
+
+## Rollback last commit
+
+`git reset --soft HEAD^`
+
+Undoes last commit and puts changes back into staging (KEEPS changes)
+
+`git reset --hard HEAD^`
+
+Undoes last commit and also DISCARDS all changed files.
+
+`git reset --hard HEAD^2`
+
+Blows away the last 2 commits (`HEAD^n` blows away the last `n` commits).
+
+## Tags
+
+`git tag` lists all tags
+`git checkout v1.0.0` check outs tag
+`git tag -a v1.0.1 -m "Fix some bugs"` adds new tag
+`git push && git push --tags` make sure to push tags otherwise tags will remain local
+
+## Talking to the remote
+
+There are just two ways to communicate to the remote: `git fetch` and `git push`. We are not including `git pull` here b/c `git pull = git fetch + git merge`.
+
+What `git fetch` does is go to the remote (GitHub, BitBucket, whatever) and brings down any changes BUT does not merge them.
+
+`git rebase` does three things:
+
+1. All of the commits in `master` which are not in `origin/master` are moved to a temporary area.
+2. Applies all of the commits in `origin/master` to `master`
+3. Applies all of the commits in the temporary area back to `master`
+
+## Merge vs Rebase
+
+Merge creates a merge commit.
