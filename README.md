@@ -16,6 +16,7 @@ This is a list of curated resources on Front End developement I think are worth 
 
 * Codility — [Website](https://codility.com/programmers)
 * HackerRank — [Website](https://www.hackerrank.com/dashboard)
+* The Coding Interview Bootcamp: Algorithms + Data Structures — [Video Course](https://www.udemy.com/coding-interview-bootcamp-algorithms-and-data-structure/)
 * The Best Frontend JavaScript Interview Questions (written by a Frontend Engineer) — [Questions](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)) — [Answers](https://github.com/bcherny/frontend-interview-questions)
 
 ## JavaScript Fundamentals
