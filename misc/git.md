@@ -532,3 +532,107 @@ What `git fetch` does is go to the remote (GitHub, BitBucket, whatever) and brin
 ## Merge vs Rebase
 
 Merge creates a merge commit.
+
+---
+
+# An enterprise Git flow
+
+## Classification
+
+* Main branches: `master`, `develop`
+* Supporting branches: `feature/x`, `bugfix/x`, `hot fix/x`, `release/x`
+
+## Lifetime
+`develop` and `master` are the only two branches with an infinite lifetime. Feature and Bugfix branches are temporary and live only until they get merged in to `develop`.
+
+## Contents
+`origin/master`: source code of `HEAD` always reflects a production-ready state of the application.
+
+`origin/develop`: source code of `HEAD` always reflects a state with the latest changes for the next release.
+
+## Intent
+`origin/develop` is an **integration branch**. We always merge feature and bugfix branches to `develop`.
+
+`origin/master` is a release branch. Each time changes are merged into `master`, this is a production release by definition. This allows for CD.
+
+## CI/CD
+
+We can configure a Git hook script to automatically build and rollout our application to our production servers every time we get a commit on `master`.
+
+We can also deploy to our staging environment every time a new commit lands on `origin/develop`.
+
+## Feature and Bugfix Branches
+
+* May branch off: `develop`
+* Must merge back into: `develop`
+* Naming convention: `feature/x`, `bugfix/x`
+
+This includes bug fixes which are not hot fixes to prod.
+
+Feature branch
+	-> pull request
+	-> merge back into develop: `git merge --no-ff`
+	-> remove feature branch from remote
+
+## Release Branches
+
+* May branch off: `develop`
+* Must merge back into: `develop` and `master`
+* Naming convention: `release/x` or `release-x`
+
+When to branch off `develop`? When it (almost) reflects the desired state of the new release.
+
+After branching off `develop`, we assign a version number.
+
+Release branches allow for meta-data preparation for the release (i.e. bump version number) but **we don't tag here**.
+
+```
+git checkout -b release-1.2 develop
+./bump-version.sh 1.2
+git commit -m "Bump version 1.2"
+```
+
+This release branch may exist for a while as bug fixes are applied here (**and not directly on `develop`**). Do not introduce new features on a release branch.
+
+Finishing a release branch:
+
+1) Merge release branch into `master`.
+2) The merge commit in `master` must be tagged. **This first tag happens in `master`.**
+3) Merge release branch into `develop`.
+4) Remove release branch.
+
+## Hotfix Branches
+
+* May branch off: `master` (it actually branches off a tag in `master` that marks the prod version we need to patch)
+* Must merge back into: `develop` and `master`
+* Naming convention: `hotfix/x` or `hotfix-x`
+
+These sort of branches arise from the need to act immediately upon a **critical bug on production**.
+
+Their aim is to prepare for an unplanned production release. In the meantime, people can keep working on the `develop` branch.
+
+```
+git checkout -b hotfix-1.2.1 master
+./bump-version.sh 1.2.1
+git commit -a -m "Bump v1.2.1"
+```
+
+Note how we bump a new version immediately before branching off (we don't create a new tag just yet, though).
+
+Finishing a hot fix branch:
+
+1) Merge back into `master`.
+2) Tag into master.
+3) Merge into `develop` to safeguard that the bugfix is included in the next release as well.
+
+```
+git checkout master
+git merge --no-ff hot fix-1.2.1
+git tag -a 1.2.1
+
+git checkout develop
+git merge --no-ff hotfix-1.2.1
+```
+
+4) Remove the temporary branch from the remote.
+
