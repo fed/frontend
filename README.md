@@ -10,7 +10,8 @@ This is a list of curated resources on Front End developement I think are worth 
 * Four Semesters of Computer Science — [Video Course](https://frontendmasters.com/courses/computer-science/) — [Course Notes](https://btholt.github.io/four-semesters-of-cs/)
 * Cracking the Coding Interview — [Book](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
 * Computer Science in JavaScript — [Website](https://www.nczonline.net/blog/tag/computer-science/)
-* Itsy Bitsy Data Structures — [Website](https://github.com/thejameskyle/itsy-bitsy-data-structures)
+* Itsy Bitsy Data Structures — [GitHub](https://github.com/thejameskyle/itsy-bitsy-data-structures)
+* Data Structures and Algorithms in JavaScript — [GitHub](https://github.com/alex-cory/Interviews)
 
 ## Computer Science Practice
 
@@ -34,10 +35,17 @@ This is a list of curated resources on Front End developement I think are worth 
 ## JavaScript, DOM and HTML5 APIs Practice
 
 * 30 Day Vanilla JS Coding Challenge — [Website](https://javascript30.com/)
+* JavaScript Challenges Book - [GitHub](https://github.com/tcorral/javascript-challenges-book)
+
+## Front End Interview Questions
+
+* https://github.com/khan4019/front-end-Interview-Questions
+* https://github.com/h5bp/Front-end-Developer-Interview-Questions
 
 ## Node.js
 
 * Learn and Understand Node.js — [Video Course](https://www.udemy.com/understand-nodejs)
+* Learn Node.js — [Video Course](https://learnnode.com/)
 
 ## Functional Programming
 
