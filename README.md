@@ -35,7 +35,8 @@ This is a list of curated resources on Front End developement I think are worth 
 ## JavaScript, DOM and HTML5 APIs Practice
 
 * 30 Day Vanilla JS Coding Challenge — [Website](https://javascript30.com/)
-* JavaScript Challenges Book - [GitHub](https://github.com/tcorral/javascript-challenges-book)
+* 30 Seconds of Code — [Website](https://chalarangelo.github.io/30-seconds-of-code/)
+* JavaScript Challenges Book — [GitHub](https://github.com/tcorral/javascript-challenges-book)
 
 ## Front End Interview Questions
 
