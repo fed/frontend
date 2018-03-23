@@ -7,17 +7,15 @@ This is a list of curated resources on Front End developement I think are worth 
 ## Computer Science Fundamentals
 
 * Computer Science Distilled: Learn the Art of Solving Computational Problems — [Book](https://www.amazon.com/Computer-Science-Distilled-Computational-Problems-ebook/dp/B0731JG96F/)
-* Four Semesters of Computer Science — [Video Course](https://frontendmasters.com/courses/computer-science/) — [Course Notes](https://btholt.github.io/four-semesters-of-cs/)
 * Cracking the Coding Interview — [Book](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
+* The Imposter's Handbook — [Book](https://bigmachine.io/products/the-imposters-handbook)
+* Four Semesters of Computer Science — [Video Course](https://frontendmasters.com/courses/computer-science/) — [Course Notes](https://btholt.github.io/four-semesters-of-cs/)
+* The Coding Interview Bootcamp: Algorithms + Data Structures — [Video Course](https://www.udemy.com/coding-interview-bootcamp-algorithms-and-data-structure/)
+* Codility — [Website](https://codility.com/programmers)
+* HackerRank — [Website](https://www.hackerrank.com/dashboard)
 * Computer Science in JavaScript — [Website](https://www.nczonline.net/blog/tag/computer-science/)
 * Itsy Bitsy Data Structures — [GitHub](https://github.com/thejameskyle/itsy-bitsy-data-structures)
 * Data Structures and Algorithms in JavaScript — [GitHub](https://github.com/alex-cory/Interviews)
-
-## Computer Science Practice
-
-* Codility — [Website](https://codility.com/programmers)
-* HackerRank — [Website](https://www.hackerrank.com/dashboard)
-* The Coding Interview Bootcamp: Algorithms + Data Structures — [Video Course](https://www.udemy.com/coding-interview-bootcamp-algorithms-and-data-structure/)
 * The Best Frontend JavaScript Interview Questions (written by a Frontend Engineer) — [Questions](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)) — [Answers](https://github.com/bcherny/frontend-interview-questions)
 
 ## JavaScript Fundamentals
@@ -32,13 +30,18 @@ This is a list of curated resources on Front End developement I think are worth 
 * Douglas Crockford on Advanced JavaScript — [Video Course](https://yuiblog.com/blog/2006/11/27/video-crockford-advjs/)
 * Learning JavaScript Design Patterns — [Book](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 
+## HTML5
+
+* Training Guide Programming in HTML5 with JavaScript and CSS3 (MCSD) — [Book](https://www.amazon.com/Training-Guide-Programming-JavaScript-Microsoft/dp/0735674388)
+* Decoding HTML5 — [Book](https://code.tutsplus.com/ebooks/decoding-html5)
+
 ## JavaScript, DOM and HTML5 APIs Practice
 
 * 30 Day Vanilla JS Coding Challenge — [Website](https://javascript30.com/)
 * 30 Seconds of Code — [Website](https://chalarangelo.github.io/30-seconds-of-code/)
 * JavaScript Challenges Book — [GitHub](https://github.com/tcorral/javascript-challenges-book)
 
-## Front End Interview Questions
+## Front End Interview Questions and Quizzes
 
 * https://github.com/khan4019/front-end-Interview-Questions
 * https://github.com/h5bp/Front-end-Developer-Interview-Questions
@@ -46,7 +49,6 @@ This is a list of curated resources on Front End developement I think are worth 
 ## Node.js
 
 * Learn and Understand Node.js — [Video Course](https://www.udemy.com/understand-nodejs)
-* Learn Node.js — [Video Course](https://learnnode.com/)
 
 ## Functional Programming
 
@@ -59,12 +61,14 @@ This is a list of curated resources on Front End developement I think are worth 
 
 * JavaScript Testing — [Video Course](https://www.udacity.com/course/javascript-testing--ud549)
 
-## HTML5
-
-* Decoding HTML5 — [Book](https://code.tutsplus.com/ebooks/decoding-html5)
-
 ## Accessibility
 
 * Practical Approaches For Designing Accessible Websites — [Book](https://www.amazon.com/Practical-Approaches-Designing-Accessible-Websites-ebook/dp/B014JEXKIQ/)
 * Web Accessibility by Google — [Video Course](https://www.udacity.com/course/web-accessibility--ud891)
 * Start Building Accessible Web Applications Today — [Video Course](https://egghead.io/courses/start-building-accessible-web-applications-today)
+
+## Systems Design and Architecture
+
+* Examples to Accompany GoF's Design Patterns — [Slides](http://www.cs.uni.edu/~wallingf/teaching/062/sessions/support/pattern-examples.pdf)
+* Design Patterns Explained Simply — [Book](https://sourcemaking.com/design-patterns-ebook)
+* Head First Design Patterns — [Book](http://shop.oreilly.com/product/9780596007126.do)
