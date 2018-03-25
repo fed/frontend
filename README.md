@@ -69,6 +69,8 @@ This is a list of curated resources on Front End developement I think are worth 
 
 ## Systems Design and Architecture
 
+* Gang of Four's Design Patterns — [Book](https://www.amazon.com.au/Design-Patterns-Object-Oriented-Addison-Wesley-Professional-ebook/dp/B000SEIBB8)
 * Examples to Accompany GoF's Design Patterns — [Slides](http://www.cs.uni.edu/~wallingf/teaching/062/sessions/support/pattern-examples.pdf)
 * Design Patterns Explained Simply — [Book](https://sourcemaking.com/design-patterns-ebook)
 * Head First Design Patterns — [Book](http://shop.oreilly.com/product/9780596007126.do)
+* Design Patterns For Dummies — [Book](https://www.wiley.com/en-us/Design+Patterns+For+Dummies-p-9780471798545)
