@@ -142,3 +142,76 @@ This means: anything that is not a closing quotation mark repeating one or more 
 Replace with: `[$1]`.
 
 Search and replace in PHP: `preg_replace`.
+
+# Regex Cheatsheet
+
+* Good tester: http://www.regexr.com/
+* Cheat sheet: http://ole.michelsen.dk/tools/regex.html
+
+```
+| = or
+(ab|ba)
+() = capture
+(Java|Ecma)Script
+(?:Java|Ecma)Script => don't care about capture
+
+// negated character classes
+[^g-z]
+// shortcuts
+\W = [^\w]
+\D = [^\d]
+\S = [^\s]
+
+/#\w{3,6}/g = hex
+#123ABC
+#abc
+
+hello6jkhkjhkjh987
+2020-01-32
+
+Ranges
+[\w-] = word characters + hyphens
+\s = whitespace =~[\t\r\n]
+\d = [0-9] (not decimals)
+
+// no look behind in javascipt (does not effect match position
+// look ahead - when not followed by
+a(?!b)
+ab ac
+// look ahead
+(what is want a that is followed by a b, but do not match the b)
+look aheads can contain capture groups
+a(?=b)
+ab
+
+\B - non-word boundary = between \w and \w or \W and \W
+\b = boundary (useful for checking if string is in list) (between \w and \W)
+/^ = beginning of line
+$/ = end of line
+/^hello$/ = match only hello on a line (use /m for multi line)
+
+hello
+[-+]?\d*(?:\.\d+)?
+15
+134.2020
+-.2000
+.293
+20
+
+
+\w = [a-zA-Z0-9_]
+[a-z]
+[a-z0-9_]
+// most characters do not need escaping in range
+
+Sets
+[abc]
+[abc]+ // 1 or more of any of thses
+
+// regex = greey -> '?' turns off greedyness
+a{0,1} a? => 0 to 1
+a{1,} a+ => 1 to many
+a{0,} a* => 0 to many
+aaaaaaaaaaaa (a{12})
+{} = quatifier
+```
