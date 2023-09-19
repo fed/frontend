@@ -68,26 +68,25 @@ This is a list of curated resources on Front End developement I think are worth 
 * [Web Accessibility by Google](https://www.udacity.com/course/web-accessibility--ud891)
 * [Start Building Accessible Web Applications Today](https://egghead.io/courses/start-building-accessible-web-applications-today)
 * [Accessible to all by web.dev](https://web.dev/accessible/)
-* https://www.edx.org/course/web-accessibility-introduction
-* https://www.coursera.org/projects/introduction-to-accessible-web-development
-* https://dequeuniversity.com/curriculum/packages/full
-* https://practical-accessibility.today/
-* https://testingaccessibility.com/
-* https://www.a11yproject.com/resources/the-bootcampers-guide-to-web-accessibility/
-* https://rosenfeldmedia.com/books/a-web-for-everyone/
-* https://abookapart.com/products/accessibility-for-everyone
-* https://accessible-vue.com/
-* https://shop.smashingmagazine.com/products/apps-for-all
+* [The W3C's Introduction to Web Accessibility](https://www.edx.org/course/web-accessibility-introduction)
+* [Introduction to Accessible Web Development](https://www.coursera.org/projects/introduction-to-accessible-web-development)
+* [Deque University Full Curriculum](https://dequeuniversity.com/curriculum/packages/full)
+* [Practical Accessibility](https://practical-accessibility.today/)
+* [Testing Accessibility](https://testingaccessibility.com/)
+* [The Bootcamper's Guide to Web Accessibility](https://www.a11yproject.com/resources/the-bootcampers-guide-to-web-accessibility/)
+* [A Web for Everyone](https://rosenfeldmedia.com/books/a-web-for-everyone/)
+* [Accessibility for Everyone](https://abookapart.com/products/accessibility-for-everyone)
+* [Apps For All: Coding Accessible Web Applications](https://shop.smashingmagazine.com/products/apps-for-all)
 
 ## Performance
 
-* https://www.udacity.com/course/website-performance-optimization--ud884
-* https://www.udacity.com/course/browser-rendering-optimization--ud860
-* https://www.udacity.com/course/responsive-images--ud882
-* https://frontendmasters.com/courses/web-perf/
-* https://web.dev/learn-core-web-vitals/
-* https://web.dev/metrics/
-* https://web.dev/fast/
+* [Website Performance Optimization](https://www.udacity.com/course/website-performance-optimization--ud884)
+* [Browser Rendering Optimization](https://www.udacity.com/course/browser-rendering-optimization--ud860)
+* [Responsive Images](https://www.udacity.com/course/responsive-images--ud882)
+* [Web Performance Fundamentals](https://frontendmasters.com/courses/web-perf/)
+* [Core Web Vitals by web.dev](https://web.dev/learn-core-web-vitals/)
+* [Metrics: measuring performance and user experience by web.dev](https://web.dev/metrics/)
+* [Fast load times: techniques for improving site performance by web.dev](https://web.dev/fast/)
 
 ## React
 
@@ -112,7 +111,7 @@ This is a list of curated resources on Front End developement I think are worth 
 
 ## Progressive Web Applications
 
-* [Learn PWAs](https://web.dev/learn/pwa/)
+* [Learn PWAs by web.dev](https://web.dev/learn/pwa/)
 * [Intro to Progressive Web Apps](https://www.udacity.com/course/intro-to-progressive-web-apps--ud811)
 * [Offline Web Applications](https://www.udacity.com/course/offline-web-applications--ud899)
 
@@ -127,17 +126,10 @@ This is a list of curated resources on Front End developement I think are worth 
 
 ## JavaScript, DOM and HTML5 APIs Practice
 
-* 30 Day Vanilla JS Coding Challenge — [Website](https://javascript30.com/)
-* 30 Seconds of Code — [Website](https://chalarangelo.github.io/30-seconds-of-code/)
-* JavaScript Challenges Book — [GitHub](https://github.com/tcorral/javascript-challenges-book)
-* Microsoft Front End Bootcamp — [GitHub](https://github.com/Microsoft/frontend-bootcamp) — [Site](https://microsoft.github.io/frontend-bootcamp/)
-* https://12daysofweb.dev/2021
-* https://12daysofweb.dev/
+* [30 Day Vanilla JS Coding Challenge](https://javascript30.com/)
+* [JavaScript Challenges Book](https://github.com/tcorral/javascript-challenges-book)
+* [Microsoft Front End Bootcamp](https://github.com/Microsoft/frontend-bootcamp)
+* [12 Days of Web](https://12daysofweb.dev/)
 * [Codility](https://codility.com/programmers)
 * [HackerRank](https://www.hackerrank.com/dashboard)
-* [The Best Frontend JavaScript Interview Questions](https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-(Written-by-a-Frontend-Engineer)) — [Answers](https://github.com/bcherny/frontend-interview-questions)
-
-## Front End Interview Questions and Quizzes
-
-* https://github.com/khan4019/front-end-Interview-Questions
-* https://github.com/h5bp/Front-end-Developer-Interview-Questions
+* [Frontend Developer Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
