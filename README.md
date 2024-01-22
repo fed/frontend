@@ -126,10 +126,10 @@ This is a list of curated resources on Front End developement I think are worth 
 
 ## JavaScript, DOM and HTML5 APIs Practice
 
+* 12 Days of Web ([2021](https://12daysofweb.dev/2021), [2022](https://12daysofweb.dev/2022), [2023](https://12daysofweb.dev/2023))
 * [30 Day Vanilla JS Coding Challenge](https://javascript30.com/)
 * [JavaScript Challenges Book](https://github.com/tcorral/javascript-challenges-book)
 * [Microsoft Front End Bootcamp](https://github.com/Microsoft/frontend-bootcamp)
-* [12 Days of Web](https://12daysofweb.dev/)
 * [Codility](https://codility.com/programmers)
 * [HackerRank](https://www.hackerrank.com/dashboard)
 * [Frontend Developer Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
