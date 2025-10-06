@@ -17,6 +17,7 @@
 - [] https://12daysofweb.dev/2021
 - [] https://12daysofweb.dev/2022
 - [] https://12daysofweb.dev/2023
+- [] https://12daysofweb.dev/2024
 
 ## CSS
 
@@ -41,7 +42,7 @@
 - [] https://testingaccessibility.com/
 - [x] https://www.a11yproject.com/resources/the-bootcampers-guide-to-web-accessibility/
 - [x] https://rosenfeldmedia.com/books/a-web-for-everyone/
-- [] https://www.smashingmagazine.com/ebooks/apps-for-all-coding-accessible-web-
+- [] https://www.smashingmagazine.com/ebooks/apps-for-all-coding-accessible-web-applications/
 
 ## React
 
