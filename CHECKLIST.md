@@ -9,7 +9,7 @@
 ## Fundamentals
 
 - [] https://justjavascript.com/
-- [] https://web.archive.org/web/20230602050149/https://jsfunctions.io/
+- [] https://web.archive.org/web/20230602050149/https://jsfunctions.io
 - [] https://www.udacity.com/course/javascript-and-the-dom--ud117
 - [] https://www.udemy.com/course/understand-javascript
 - [] https://domevents.dev/
@@ -21,15 +21,17 @@
 
 ## CSS
 
-- [] https://css-for-js.dev/
-- [] https://every-layout.dev/
+- [] https://css-for-js.dev
+- [] https://every-layout.dev
+- [] https://piccalil.li/complete-css
+- [] https://whimsy.joshwcomeau.com
 
 ## Asynchronicity
 
 - [] https://www.udacity.com/course/asynchronous-javascript-requests--ud109
 - [] https://www.udacity.com/course/javascript-promises--ud898
 - [] https://leanpub.com/understanding-javascript-promises
-- [] https://web.dev/reliable/
+- [] https://web.dev/reliable
 
 ## Accessibility
 
@@ -38,17 +40,20 @@
 - [] https://www.edx.org/course/web-accessibility-introduction
 - [] https://www.coursera.org/projects/introduction-to-accessible-web-development
 - [x] https://dequeuniversity.com/curriculum/packages/full
-- [x] https://practical-accessibility.today/
-- [] https://testingaccessibility.com/
-- [x] https://www.a11yproject.com/resources/the-bootcampers-guide-to-web-accessibility/
-- [x] https://rosenfeldmedia.com/books/a-web-for-everyone/
-- [] https://www.smashingmagazine.com/ebooks/apps-for-all-coding-accessible-web-applications/
+- [x] https://practical-accessibility.today
+- [] https://testingaccessibility.com
+- [x] https://www.a11yproject.com/resources/the-bootcampers-guide-to-web-accessibility
+- [x] https://rosenfeldmedia.com/books/a-web-for-everyone
+- [] https://www.smashingmagazine.com/ebooks/apps-for-all-coding-accessible-web-applications
+- [] https://accessibility-cookbook.com/buy
+- [] https://book.inclusive-components.design
 
 ## React
 
 - [] https://dontimitateunderstand.com/p/understanding-react
 - [] https://www.udemy.com/course/react-redux
-- [x] https://useeffectbyexample.com/
+- [x] https://useeffectbyexample.com
+- [] https://tonyalicea.dev/jsframeworks
 
 ## Testing
 
@@ -58,16 +63,17 @@
 ## Browsers
 
 - [] https://browser.engineering/
-- [] https://developer.chrome.com/blog/round-up-of-web-browser-internals-resources/
+- [] https://developer.chrome.com/blog/round-up-of-web-browser-internals-resources
 - [] https://twitter.com/addyosmani/status/1216064732504788992
 - [] https://github.com/ejzimmer/browser-talk
 
 ## Web Components
 
+- [] https://scottjehl.com/learn/webcomponentsdemystified
 - [] https://coryrylan.gumroad.com/l/web-component-essentials?layout=profile
-- [] https://open-wc.org/guides/developing-components/
+- [] https://open-wc.org/guides/developing-components
 - [] https://bluespire.com/p/web-component-engineering
-- [] https://kinsta.com/blog/web-components/
+- [] https://kinsta.com/blog/web-components
 
 ## Functional Programming
 
@@ -76,17 +82,17 @@
 ## Functional Reactive Programming
 
 - [] https://ultimatecourses.com/courses/rxjs
-- [] https://this-is-learning.github.io/rxjs-fundamentals-course/
+- [] https://this-is-learning.github.io/rxjs-fundamentals-course
 
 ## Performance
 
 - [] https://www.udacity.com/course/website-performance-optimization--ud884
 - [] https://www.udacity.com/course/browser-rendering-optimization--ud860
 - [] https://www.udacity.com/course/responsive-images--ud882
-- [] https://frontendmasters.com/courses/web-perf/
-- [] https://web.dev/learn-core-web-vitals/
-- [] https://web.dev/metrics/
-- [] https://web.dev/fast/
+- [] https://frontendmasters.com/courses/web-perf
+- [] https://web.dev/learn-core-web-vitals
+- [] https://web.dev/metrics
+- [] https://web.dev/fast
 
 ## PWAs
 
@@ -94,9 +100,16 @@
 - [] https://www.udacity.com/course/intro-to-progressive-web-apps--ud811
 - [] https://www.udacity.com/course/offline-web-applications--ud899
 
+## Design Systems
+
+- [] https://designsystem.university/books/design-that-scales
+- [] https://designsystemfoundations.com
+- [] https://www.smashingmagazine.com/design-systems-book
+- [] https://designtokenscourse.com
+
 ## Design Patterns
 
-- [] https://www.oreilly.com/library/view/learning-javascript-design/9781098139865/
+- [] https://www.oreilly.com/library/view/learning-javascript-design/9781098139865
 
 ## Computer Science
 
@@ -106,7 +119,15 @@
 - [] https://egghead.io/courses/data-structures-and-algorithms-in-javascript
 - [] https://egghead.io/courses/algorithms-in-javascript
 
+## Elm
+
+- [] https://frontendmasters.com/courses/intro-elm/
+- [] https://www.youtube.com/watch?v=WgJ2FUW1miA
+
 ## Miscellaneous
 
 - [] https://www.youtube.com/playlist?list=PLMFkaz4tpSYaGYraLF1uHuz_pJglh0M7y
 - [] https://www.udemy.com/course/understand-nodejs
+- [] https://www.jointaro.com/course/maximize-your-productivity-as-a-software-engineer
+- [] https://teamdynamics.dev
+- [] https://dontimitateunderstand.com/p/normal-ui-book-and-video-series
